@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="side-bar">
+      <div id="side-elements">
+        <div id="side-bar-top-list">
+          <h1 id="header">load manager</h1>
+          <ul>
+            <li>
+              <a class="link-item" href="#">
+                <i class="fas fa-columns link-item"
+                  ><span>Dashboard</span></i
+                ></a
+              >
+            </li>
+            <li>
+              <a class="link-item" href="#"
+                ><i class="fas fa-cube link-item"><span>Loads</span></i>
+              </a>
+            </li>
+            <li>
+              <a class="link-item" href="#"
+                ><i class="far fa-file-alt link-item"><span>Tips</span></i></a
+              >
+            </li>
+            <li>
+              <a class="link-item" href="#">
+                <i class="fas fa-map-marker-alt link-item"
+                  ><span>Locations</span></i
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="side-bar-bottom-list">
+          <h3 style="position: relative; left: 40px">settings</h3>
+          <ul>
+            <li>
+              <a class="link-item" href="#"
+                ><i class="fas fa-cog link-item"
+                  ><span>Main Settings</span>
+                </i></a
+              >
+            </li>
+            <li>
+              <a class="link-item" href="#"
+                ><i class="fas fa-sign-out-alt link-item"
+                  ><span>Log out</span>
+                </i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------
+    ------moved to main------
+    ------------------------ -->
+    <section id="main-page">
+      <h3>Loads</h3>
+      <div id="container">
+        <table id="table-list">
+          <tr class="tr">
+            <th class="w-20">Driver</th>
+            <th class="w-20">Pick up</th>
+            <th class="w-20">Distance</th>
+            <th class="w-20">Status</th>
+            <th class="w-20">Manager</th>
+          </tr>
+          <tr>
+            <td>
+              <img
+                class="table-image"
+                src="https://cdn.pixabay.com/photo/2017/11/30/18/55/rome-2989238__340.jpg "
+                alt="image"
+              /><b>Dienaelli pausel</b>
+            </td>
+            <td>$45 000</td>
+            <td>21/06/2021</td>
+            <td><span>Active</span></td>
+            <td>real</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                class="table-image"
+                src="https://cdn.pixabay.com/photo/2016/11/20/09/15/people-1842334__340.jpg"
+                alt="image"
+              />
+              <b>Floyd Miles</b>
+            </td>
+            <td>$45 000</td>
+            <td>21/06/2021</td>
+            <td><span>Active</span></td>
+            <td>real</td>
+          </tr>
+          <tr class="tr">
+            <td>
+              <img
+                class="table-image"
+                src="https://cdn.pixabay.com/photo/2016/05/14/10/06/face-1391628__340.jpg "
+                alt="image"
+              />
+              <b>Jerome Bell</b>
+            </td>
+            <td>$45 000</td>
+            <td>21/06/2021</td>
+            <td><span>Active</span></td>
+            <td>real</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                class="table-image"
+                src="https://cdn.pixabay.com/photo/2016/03/26/20/35/young-man-1281282__340.jpg "
+                alt="image"
+              />
+              <b>Marvin Micki</b>
+            </td>
+            <td>$45 000</td>
+            <td>21/06/2021</td>
+            <td><span>Active</span></td>
+            <td>real</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                class="table-image"
+                src="https://cdn.pixabay.com/photo/2017/08/12/18/31/male-2634974__340.jpg "
+                alt="image"
+              />
+              <b>Lesia mane</b>
+            </td>
+            <td>$45 000</td>
+            <td>21/06/2021</td>
+            <td><span>Active</span></td>
+            <td>real</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                class="table-image"
+                src="https://cdn.pixabay.com/photo/2015/08/05/04/02/people-875597__340.jpg "
+                alt="image"
+              />
+              <b>Ronald Richards</b>
+            </td>
+            <td>$45 000</td>
+            <td>21/06/2021</td>
+            <td><span>Active</span></td>
+            <td>real</td>
+          </tr>
+        </table>
+      </div>
+      <div id="rigth-bar">
+        <div id="load-container">
+          <h3 id="header-three">Loads details</h3>
+        </div>
+        <div id="main-container">
+          <span id="logo">Loads</span>
+        </div>
+        <div id="hr">
+          <div id="id">ID</div>
+          <div id="hero">0789595</div>
+        </div>
+        <div id="right"></div>
+        <div id="hr-two">
+          <div id="status">Status</div>
+          <div id="on-road">On Road</div>
+          <div id="hr-three">
+            <a href="#" id="driver">Driver</a>
+            <a href="#" id="drivers">Darell steward</a>
+            <h2 id="tracker">Tracker</h2>
+            <div id="hour">6:42 am</div>
+            <div id="rect"></div>
+            <div id="line"></div>
+            <div id="way">On the way to pick up</div>
+            <div id="second-our">6:42 am</div>
+            <div id="rect-two"></div>
+            <div id="loaded">Loaded</div>
+            <div id="third-our">6:42 am</div>
+            <div id="hr-threes"></div>
+            <div id="rect-three"></div>
+            <div id="loadeder">Loaded</div>
+            <div id="hr-four"></div>
+            <div id="img"></div>
+            <div id="bottom">
+              <b id="request"><pre>Request Update</pre></b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
